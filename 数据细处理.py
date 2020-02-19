@@ -41,3 +41,8 @@ def write():
 init()
 main()
 write()
+
+dic = {'key' : 'value'}
+
+list (dic.keys()) [list (dic.values()).index ('value')]
+

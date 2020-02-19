@@ -9,8 +9,7 @@ def read():
 	with open('DXYArea.csv',encoding='utf-8') as f:
 		f_csv = csv.reader(f)
 		for row in f_csv:
-			del row[9],row[8],row[7],row[6]
-			del row[5],row[4],row[3],row[1]
+			del row[13],row[12],row[11],row[10],row[9],row[8],row[7],row[5],row[4],row[3],row[2],row[1]
 			data.append(row)
 
 # 合并数据
